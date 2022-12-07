@@ -1,4 +1,6 @@
 from mycroft import MycroftSkill, intent_file_handler
+import pandas
+import csv
 
 
 class Reccomender(MycroftSkill):
