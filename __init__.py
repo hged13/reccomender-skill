@@ -13,7 +13,7 @@ class Reccomender(MycroftSkill):
     
     
     def get_user(self):
-    file = open('/home/pi/.config/mycroft/skills/NewUserCreation/log.csv', 'r')
+        file = open('/home/pi/.config/mycroft/skills/NewUserCreation/log.csv', 'r')
         df = pd.read_csv(file)
 
 
